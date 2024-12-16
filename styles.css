@@ -1,0 +1,179 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    color: #2c3e50;
+}
+
+p {
+    color: #555;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #3498db; /* Blue */
+}
+
+.navbar .navbar-brand, .navbar-nav .nav-link {
+    color: black !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #1abc9c !important; /* Light green on hover */
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+    background-color: #e74c3c; /* Red */
+    color: white;
+    padding: 40px 20px;
+    border-radius: 0;
+}
+
+.jumbotron h1, .jumbotron p {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.jumbotron p {
+    font-size: 1.1rem;
+}
+
+/* Carousel Styling */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;  /* Ensures the image covers the entire container without distorting */
+    width: 100%;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6); /* Slight black background */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.carousel-caption p {
+    color: #3498db;
+}
+.carousel-caption {
+    white-space: normal;  /* Allow text to wrap */
+    overflow: visible;    /* Ensure text isn't hidden */
+    max-height: 100%;     /* Ensure it takes full height if needed */
+}
+/* Event Cards */
+.card {
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color:#fff
+}
+
+.card-title {
+    color: #3498db; /* Blue */
+    font-size: 1.2rem;
+}
+
+.card-text {
+    color: #7f8c8d;
+    font-size: 1rem;
+}
+
+.card a {
+    color: #fff;
+    background-color: #3498db; /* Blue */
+}
+
+.card a:hover {
+    background-color: #1abc9c; /* Light green */
+}
+
+/* About Us Section */
+.about-us h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+.about-us h4{
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Contact Form */
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #3498db; /* Blue focus */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: hsl(168, 76%, 42%); /* Light green on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #e74c3c;
+    text-align: center;
+    color: #2c3e50;
+    font-style: inherit;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-text {
+        font-size: 0.9rem;
+    }
+}
